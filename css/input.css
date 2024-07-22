@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .mobile-h1 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .mobile-h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .mobile-h3 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .h4 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .mobile-h4 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .body-m {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  .body-m-semibold {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 130%;
+  }
+  .body-s {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  .body-s-semibold {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 130%;
+  }
+  .caption {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  .nunito-reg {
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nunito-sem {
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .nunito-bold {
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+
+.icon-hover:hover path{
+  fill: #7CC06E;
+}
+.card:hover .card-info{
+  display: block;
+}
